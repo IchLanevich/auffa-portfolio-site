@@ -10,7 +10,7 @@ import Footer from "@/components/organism/Footer";
 export default function Home() {
   return (
     <>
-      <header className="w-screen py-[24px] fixed backdrop-blur-[24px] border-b border-[#d4d4d4] mx-auto">
+      <header className="w-screen py-[24px] sticky backdrop-blur-[24px] border-b border-[#d4d4d4] mx-auto">
         <Navbar />
       </header>
       <main className={`${styles.main} px-[16px] md:px-[16px] lg:px-[32px]`}>

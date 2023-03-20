@@ -10,7 +10,7 @@ const classNames = {
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center px-[16px] md:px-0 container mx-auto">
+    <nav className="flex items-center px-[16px] lg:px-[32px] container mx-auto">
       <Link href='/' className={classNames.logo}>{navbar.logo}</Link>
       <div className="hidden ml-auto md:flex">
         <ul className={classNames.links}>

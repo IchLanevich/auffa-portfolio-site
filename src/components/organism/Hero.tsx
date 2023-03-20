@@ -6,8 +6,8 @@ import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 
 const elementClasses = {
-  title: "text-[55px] font-medium leading-[66px]",
-  subtitle: `text-[18px] leading-[21px] text-[#767676]`,
+  title: "text-[40px] leading-[50px] md:text-[55px] font-medium md:leading-[66px]",
+  subtitle: `text-base md:text-[18px] leading-[21px] text-[#767676]`,
   primaryCta:
     "flex items-center justify-center min-w-[120px] md:w-[150px] max-w-[150px] py-[10px] px-[24px] gap-[8px] text-[#FFFFFF] bg-[#151515] rounded-[36px]",
   secondaryCta:
