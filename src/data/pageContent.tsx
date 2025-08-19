@@ -201,7 +201,7 @@ const contact: Contact = {
     },
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/moh-auffa-maulana-7b1b1b1b3/",
+      url: "https://www.linkedin.com/in/moh-auffa-maulana-937a8a1ba/",
       icon: <FaLinkedin />,
     },
     {
