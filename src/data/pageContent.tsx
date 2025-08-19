@@ -5,7 +5,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import { Navbar, Hero, AboutMe, MySkills, FeaturedPortfolio, Contact, Footer } from "@/interfaces/interfaces";
-import {aboutmeImg, chatflowImg, heroImg, pokedexImg, todoitImg} from "../assets/images/index.js";
+import { aboutmeImg, chatflowImg, heroImg, hoobankImg, pokedexImg, todoitImg } from "../assets/images/index.js";
 
 
 const navbar: Navbar = {
@@ -31,9 +31,9 @@ const navbar: Navbar = {
 }
 
 const hero: Hero = {
-  title: "Front-End React Developer 👋",
+  title: "Will Be Software Engineer 👋",
   subtitle:
-    "Hi, I'm Moh. Auffa Maulana. A passionate Front-end React Developer based in South Borneo, Indonesia.",
+    "Hi, I'm Moh. Auffa Maulana. A passionate Software Engineer based in South Borneo, Indonesia.",
   img: heroImg,
   socmed: [
     {
@@ -69,11 +69,11 @@ const hero: Hero = {
 
 const aboutMe: AboutMe = {
   title: "ABOUT ME",
-  subtitle: "A Self-Taught Front-End Developer",
+  subtitle: "A Self-Taught Programmer",
   img: aboutmeImg,
   textContents: [
     {
-      text: "I'm a self-taught front-end developer whose enjoy creating things that live on the internet. My interest in web development started after i graduate from high school when i was trying html for the first time, it feel like building a house in minecraft or building lego.",
+      text: "I'm a Programmer whose enjoy creating things that live on the internet. My interest in web development started after i graduate from high school when i was trying html for the first time, it feel like building a house in minecraft or building lego.",
     },
     {
       text: "I am passionate about Web Development and enjoy working on the web. I love to turn my creativity into a real-life app or web. And i love turning design into static website or fully functional websites.",
@@ -85,7 +85,7 @@ const aboutMe: AboutMe = {
       text: "My ability to work collaboratively with others and my dedication to delivering high-quality code make me an asset to any team.",
     },
     {
-      text: "I stay up-to-date with the latest trends and best practices in front-end development and always strive to exceed expectations",
+      text: "I stay up-to-date with the latest trends and best practices, i'm always strive to exceed expectations",
     },
     {
       text: "Whether working on simple or complex projects, I am committed to delivering results that meet the needs of all stakeholders.",
@@ -98,22 +98,20 @@ const mySkills: MySkills = {
   skillsByCategory: [
     {
       category: "Programming Languages",
-      skills: ["HTML", "CSS", "JavaScript", "TypeScript"],
+      skills: ["HTML", "CSS", "JavaScript", "TypeScript", "Java"],
     },
     {
       category: "CSS Frameworks",
-      skills: ["Tailwind CSS", "Headless UI", "Bootstrap"],
+      skills: ["Tailwind CSS", "Bootstrap (Basic)"],
     },
     {
       category: "Front-End Frameworks",
-      skills: ["React", "Next.js"],
+      skills: ["Next.js", "React"],
     },
     {
       category: "JS Libraries",
       skills: [
         "Axios",
-        "Redux",
-        "React Query",
       ],
     },
     {
@@ -125,8 +123,8 @@ const mySkills: MySkills = {
       skills: ["Figma", "Adobe Photoshop"],
     },
     {
-      category: "Unit Testing",
-      skills: ["Jest", "Storybook"],
+      category: "Project Management",
+      skills: ["Jira"],
     },
     {
       category: "Version Control",
@@ -138,7 +136,7 @@ const mySkills: MySkills = {
     },
     {
       category: "API Testing",
-      skills: ["Insomnia"],
+      skills: ["Postman"],
     },
   ],
 };
@@ -170,6 +168,15 @@ const featuredPortfolio: FeaturedPortfolio = {
         "ChatFlow landing page is a visually striking and highly functional element of a website. It features a clean and modern design.",
       img: chatflowImg,
       tags: ["React", "Tailwind"],
+      projectType: "Landing Page",
+      projectUrl: 'https://auffa-chatflow.netlify.app',
+    },
+    {
+      title: "Hoobank",
+      description:
+        "Hoobank landing page showcases a clean, modern layout that is both visually engaging and highly functional.",
+      img: hoobankImg,
+      tags: ["Next Js", "Tailwind CSS"],
       projectType: "Landing Page",
       projectUrl: 'https://auffa-chatflow.netlify.app',
     },
@@ -244,4 +251,4 @@ const footer: Footer = {
   ],
 };
 
-export {navbar,hero, aboutMe, mySkills, featuredPortfolio, contact, footer};
+export { navbar, hero, aboutMe, mySkills, featuredPortfolio, contact, footer };
